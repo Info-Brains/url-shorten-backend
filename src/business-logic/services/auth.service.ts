@@ -4,11 +4,10 @@ import ENV from "@config/env.config";
 class TokenService {
     private static JWT_SECRET = ENV.JWT_SECRET;
 
-    static generateToken(payload: object, systemRole: string, expiresIn: string = "1d"): string {
+    static generateToken(payload: object, expiresIn: string = "1d"): string {
         console.assert(payload, "Payload is required");
-        console.assert(systemRole, "System role is required");
 
-        return jwt.sign({ ...payload, systemRole }, this.JWT_SECRET, {
+        return jwt.sign(payload, this.JWT_SECRET, {
             expiresIn,
         } as jwt.SignOptions);
     }
