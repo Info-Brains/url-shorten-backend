@@ -18,6 +18,13 @@ export default class User {
         return {urls, urlsTotal};
     }
 
+    public static findOne({where, select}: {
+        where: Prisma.UserWhereUniqueInput;
+        select?: Prisma.UserSelect;
+    }) {
+        return (prisma as any)[this.modelName].findUnique({where, select});
+    }
+
     public static create({data, select}: {
         data: Prisma.UserCreateInput;
         select?: Prisma.UserSelect;

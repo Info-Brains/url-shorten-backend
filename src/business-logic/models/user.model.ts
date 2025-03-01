@@ -23,20 +23,4 @@ export default class User {
     }) {
         return (prisma as any)[this.modelName].create({data, select});
     }
-
-    public static update({where, data, select}: {
-        where: Prisma.UserWhereUniqueInput;
-        data: Prisma.UserUpdateInput;
-        select?: Prisma.UserSelect;
-    }) {
-        return (prisma as any)[this.modelName].update({where, data, select});
-    }
-
-    public static upsert({where, create, update}: {
-        create: Prisma.UserCreateInput;
-        where: Prisma.UserWhereUniqueInput;
-        update: Prisma.UserUpdateInput;
-    }) {
-        return (prisma as any)[this.modelName].upsert({create, where, update});
-    }
 }
