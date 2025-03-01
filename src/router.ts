@@ -1,12 +1,12 @@
-// import { healthCheck } from "./business-logic/middlewares/health.mw";
-// import BusinessLogicRoute from "./business-logic/apis/router";
 import { NextFunction, Request, Response, Router } from "express";
+import HealthCheck from "@business/middlewares/health.mw";
+import BusinessLogicRoute from "@business/apis/_router";
 import logger from "@utils/logger.util";
 
 const router = Router();
 
-// router.get("/health", healthCheck);
-// router.use("/api", BusinessLogicRoute);
+router.get("/health", HealthCheck);
+router.use("/api", BusinessLogicRoute);
 
 router.use((_req: Request, _res: Response, next: NextFunction) => {
     next({

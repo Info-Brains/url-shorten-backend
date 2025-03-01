@@ -15,12 +15,12 @@ if (cluster.isPrimary) {
 
     // Fork workers
     for (let i = 0; i < numInstances; i++) {
-        const worker = cluster.fork();
+        cluster.fork();
     }
 
     cluster.on("exit", (worker) => {
         logger.warn(`Worker ${worker.process.pid} died. Forking a new worker...`);
-        const newWorker = cluster.fork();
+        cluster.fork();
     });
 } else {
     const workerId = cluster.worker?.id || "unknown";

@@ -11,3 +11,60 @@
 [05:57:10 PM] INFO:  [Worker 1 | PID 414278] -- Received SIGINT. Shutting down... 
 [05:57:10 PM] INFO:  [Worker 4 | PID 414291] -- Received SIGINT. Shutting down... 
 [05:57:10 PM] INFO:  [Worker 3 | PID 414285] -- Received SIGINT. Shutting down... 
+[05:58:33 PM] INFO:  Server is running in development mode on port 3000 
+[05:59:18 PM] INFO:  Server is running in development mode on port 3000 
+[05:59:42 PM] INFO:  Master process is running. Forking for 4 instances... 
+[05:59:43 PM] INFO:  [Worker 4 | PID 415648] -- Server is running in development mode on port 3000 
+[05:59:43 PM] INFO:  [Worker 2 | PID 415641] -- Server is running in development mode on port 3000 
+[05:59:43 PM] INFO:  [Worker 1 | PID 415640] -- Server is running in development mode on port 3000 
+[05:59:43 PM] INFO:  [Worker 3 | PID 415642] -- Server is running in development mode on port 3000 
+[06:00:04 PM] INFO:  [Worker 1 | PID 415640] -- Received SIGINT. Shutting down... 
+[06:00:04 PM] INFO:  [Worker 4 | PID 415648] -- Received SIGINT. Shutting down... 
+[06:00:04 PM] INFO:  [Worker 2 | PID 415641] -- Received SIGINT. Shutting down... 
+[06:00:04 PM] INFO:  [Worker 3 | PID 415642] -- Received SIGINT. Shutting down... 
+[06:00:35 PM] INFO:  Server is running in development mode on port 3000 
+[06:01:18 PM] INFO:  Server is running in development mode on port 3000 
+[06:01:33 PM] INFO:  Master process is running. Forking for 4 instances... 
+[06:01:48 PM] INFO:  Master process is running. Forking for 4 instances... 
+[06:01:49 PM] INFO:  [Worker 4 | PID 417414] -- Server is running in development mode on port 3000 
+[06:01:49 PM] INFO:  [Worker 2 | PID 417407] -- Server is running in development mode on port 3000 
+[06:01:49 PM] INFO:  [Worker 1 | PID 417406] -- Server is running in development mode on port 3000 
+[06:01:49 PM] INFO:  [Worker 3 | PID 417408] -- Server is running in development mode on port 3000 
+[06:07:30 PM] INFO:  [Worker 3 | PID 417408] -- Received SIGINT. Shutting down... 
+[06:07:30 PM] INFO:  [Worker 1 | PID 417406] -- Received SIGINT. Shutting down... 
+[06:07:30 PM] INFO:  [Worker 4 | PID 417414] -- Received SIGINT. Shutting down... 
+[06:07:30 PM] INFO:  [Worker 2 | PID 417407] -- Received SIGINT. Shutting down... 
+[06:07:36 PM] INFO:  Server is running in development mode on port 3000 
+[06:09:26 PM] INFO:  Server is running in development mode on port 3000 
+[06:09:29 PM] INFO:  Server is running in development mode on port 3000 
+[06:10:53 PM] INFO:  Server is running in development mode on port 3000 
+[06:11:01 PM] INFO:  Server is running in development mode on port 3000 
+[06:11:33 PM] INFO:  Server is running in development mode on port 3000 
+[06:11:38 PM] INFO:  Server is running in development mode on port 3000 
+[06:14:32 PM] INFO:  Server is running in development mode on port 3000 
+[06:14:40 PM] INFO:  Server is running in development mode on port 3000 
+[06:14:58 PM] INFO:  Server is running in development mode on port 3000 
+[06:15:59 PM] INFO:  Server is running in development mode on port 3000 
+[06:17:08 PM] INFO:  Server is running in development mode on port 3000 
+[06:17:34 PM] INFO:  Server is running in development mode on port 3000 
+[06:17:55 PM] INFO:  Server is running in development mode on port 3000 
+[06:18:21 PM] INFO:  Server is running in development mode on port 3000 
+[06:18:50 PM] INFO:  Server is running in development mode on port 3000 
+[06:20:54 PM] INFO:  Server is running in development mode on port 3000 
+[06:21:22 PM] INFO:  Server is running in development mode on port 3000 
+[06:21:29 PM] INFO:  Server is running in development mode on port 3000 
+[06:22:26 PM] INFO:  Server is running in development mode on port 3000 
+[06:22:53 PM] INFO:  Server is running in development mode on port 3000 
+[06:23:28 PM] INFO:  Server is running in development mode on port 3000 
+[06:25:32 PM] INFO:  Server is running in development mode on port 3000 
+[06:25:42 PM] INFO:  Server is running in development mode on port 3000 
+[06:26:16 PM] INFO:  Server is running in development mode on port 3000 
+[06:26:38 PM] INFO:  Server is running in development mode on port 3000 
+[06:30:30 PM] INFO:  Server is running in development mode on port 3000 
+[06:30:47 PM] INFO:  Server is running in development mode on port 3000 
+[06:31:22 PM] INFO:  Server is running in development mode on port 3000 
+[06:31:50 PM] INFO:  Server is running in development mode on port 3000 
+[06:32:15 PM] INFO:  Server is running in development mode on port 3000 
+[06:32:33 PM] INFO:  Server is running in development mode on port 3000 
+[06:32:49 PM] INFO:  Server is running in development mode on port 3000 
+[06:32:52 PM] INFO:  Server is running in development mode on port 3000 
