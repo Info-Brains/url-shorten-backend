@@ -1,5 +1,5 @@
-import logger from '@utils/logger.util';
-import ENV from '@config/env.config'
+import logger from "@utils/logger.util";
+import ENV from "@config/env.config";
 
 import App from "./config/express.config";
 import cluster from "node:cluster";
@@ -15,22 +15,29 @@ if (cluster.isPrimary) {
 
     // Fork workers
     for (let i = 0; i < numInstances; i++) {
-        cluster.fork();
+        const worker = cluster.fork();
     }
 
     cluster.on("exit", (worker) => {
-        logger.info(`Worker ${worker.process.pid} died. Forking a new worker...`);
-        cluster.fork();
+        logger.warn(`Worker ${worker.process.pid} died. Forking a new worker...`);
+        const newWorker = cluster.fork();
     });
 } else {
+    const workerId = cluster.worker?.id || "unknown";
+    const processId = process.pid;
+
+    // Prefix logs with the worker ID
+    const logWithWorker = (message: string) =>
+        logger.info(`[Worker ${workerId} | PID ${processId}] -- ${message}`);
+
     App.use("/", Router);
 
     App.listen(ENV.PORT, () => {
-        logger.info(`Server is running in ${ENV.NODE_ENV} mode on port ${ENV.PORT}`);
+        logWithWorker(`Server is running in ${ENV.NODE_ENV} mode on port ${ENV.PORT}`);
     });
 
-    App.on("SIGINT", () => {
-        logger.error(`Server off, SIGINT`);
+    process.on("SIGINT", () => {
+        logWithWorker("Received SIGINT. Shutting down...");
         process.exit();
     });
 }

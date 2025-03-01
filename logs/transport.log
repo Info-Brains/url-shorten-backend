@@ -1,8 +1,13 @@
-2025-03-01 04:29:44.118 PM info:  Server is running in development mode on port 3000 
-2025-03-01 04:30:11.619 PM info:  Server is running in development mode on port 3000 
-2025-03-01 04:30:42.592 PM info:  Server is running in development mode on port 3000 
-2025-03-01 04:31:29.946 PM info:  Server is running in development mode on port 3000 
-2025-03-01 04:31:38.432 PM info:  Server is running in development mode on port 3000 
-2025-03-01 04:31:55.781 PM info:  Server is running in development mode on port 3000 
-[04:33:05 PM] INFO:  Server is running in development mode on port 3000 
-[04:36:33 PM] INFO:  Server is running in development mode on port 3000 
+[05:56:27 PM] INFO:  [Worker 3 | PID 413889] Received SIGINT. Shutting down... --  
+[05:56:27 PM] INFO:  [Worker 4 | PID 413895] Received SIGINT. Shutting down... --  
+[05:56:27 PM] INFO:  [Worker 1 | PID 413887] Received SIGINT. Shutting down... --  
+[05:56:27 PM] INFO:  [Worker 2 | PID 413888] Received SIGINT. Shutting down... --  
+[05:56:31 PM] INFO:  Master process is running. Forking for 4 instances... 
+[05:56:31 PM] INFO:  [Worker 2 | PID 414279] -- Server is running in development mode on port 3000 
+[05:56:31 PM] INFO:  [Worker 4 | PID 414291] -- Server is running in development mode on port 3000 
+[05:56:31 PM] INFO:  [Worker 1 | PID 414278] -- Server is running in development mode on port 3000 
+[05:56:31 PM] INFO:  [Worker 3 | PID 414285] -- Server is running in development mode on port 3000 
+[05:57:10 PM] INFO:  [Worker 2 | PID 414279] -- Received SIGINT. Shutting down... 
+[05:57:10 PM] INFO:  [Worker 1 | PID 414278] -- Received SIGINT. Shutting down... 
+[05:57:10 PM] INFO:  [Worker 4 | PID 414291] -- Received SIGINT. Shutting down... 
+[05:57:10 PM] INFO:  [Worker 3 | PID 414285] -- Received SIGINT. Shutting down... 

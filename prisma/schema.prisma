@@ -21,8 +21,30 @@ model User {
   updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
+  urls Url[]
+
   @@index([email, name], name: "email_name_index")
-  @@index([isDeleted, deletedAt], name: "is_deleted_index")
-  @@index([createdAt], name: "created_at_index")
+  @@index([isDeleted, deletedAt], name: "is_user_deleted_index")
+  @@index([createdAt], name: "created_user_at_index")
   @@map("users")
+}
+
+model Url {
+  id          String  @id @default(cuid())
+  originalUrl String  @map("original_url")
+  shortUrl    String  @unique @map("short_url")
+  userId      String  @map("user_id")
+  clicks      Int     @default(0)
+  isDeleted   Boolean @default(false) @map("is_deleted")
+
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  deletedAt DateTime? @map("deleted_at")
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId], name: "user_id_index")
+  @@index([isDeleted, deletedAt], name: "is_url_deleted_index")
+  @@index([createdAt], name: "created_url_at_index")
+  @@map("urls")
 }
