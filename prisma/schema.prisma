@@ -32,7 +32,6 @@ model User {
 model Url {
   id          String  @id @default(cuid())
   originalUrl String  @map("original_url")
-  shortUrl    String  @unique @map("short_url")
   userId      String  @map("user_id")
   clicks      Int     @default(0)
   isDeleted   Boolean @default(false) @map("is_deleted")

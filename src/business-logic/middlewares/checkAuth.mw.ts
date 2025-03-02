@@ -10,7 +10,6 @@ declare module "express-serve-static-core" {
 const authMiddleware = (req: Request, _res: Response, next: NextFunction) => {
     try {
         const token = req.header('Authorization')?.replace('Bearer ', '').trim();
-        console.log(token)
 
         if (!token) {
             return next({

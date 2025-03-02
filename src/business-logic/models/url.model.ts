@@ -1,48 +1,62 @@
 import prisma from "@config/prisma.config";
 import {Prisma} from "@prisma/client";
 
-export default class User {
+export default class Url {
     private static modelName: string = "Url";
 
-    public static findMany({where, select, page = 1, limit = 10}: {
-        where?: Prisma.UserWhereInput;
-        select?: Prisma.UserSelect;
+    public static async transaction<T>(callback: (tx: Prisma.TransactionClient) => Promise<T>): Promise<T> {
+        return prisma.$transaction(callback);
+    }
+
+    public static async findMany({where, select, page = 1, limit = 10}: {
+        where?: Prisma.UrlWhereInput;
+        select?: Prisma.UrlSelect;
         page?: number;
         limit?: number;
     }) {
-        const [urls, urlsTotal] = (prisma as any).$transaction([
-            (prisma as any)[this.modelName].findMany({where, select, skip: (page - 1) * limit, take: limit}),
+        const [urls, urlsTotal] = await (prisma as any).$transaction([
+            (prisma as any)[this.modelName].findMany({
+                where,
+                select,
+                skip: (page - 1) * limit,
+                take: limit
+            }),
             (prisma as any)[this.modelName].count({where})
-        ])
+        ]);
 
         return {urls, urlsTotal};
     }
 
     public static findOne({where, select}: {
-        where: Prisma.UserWhereUniqueInput;
-        select?: Prisma.UserSelect;
+        where: Prisma.UrlWhereUniqueInput;
+        select?: Prisma.UrlSelect;
     }) {
         return (prisma as any)[this.modelName].findUnique({where, select});
     }
 
     public static create({data, select}: {
-        data: Prisma.UserCreateInput;
-        select?: Prisma.UserSelect;
+        data: Prisma.UrlCreateInput;
+        select?: Prisma.UrlSelect;
     }) {
         return (prisma as any)[this.modelName].create({data, select});
     }
 
     public static update({where, data, select}: {
-        where: Prisma.UserWhereUniqueInput;
-        data: Prisma.UserUpdateInput;
-        select?: Prisma.UserSelect;
+        where: Prisma.UrlWhereUniqueInput;
+        data: Prisma.UrlUpdateInput;
+        select?: Prisma.UrlSelect;
     }) {
         return (prisma as any)[this.modelName].update({where, data, select});
     }
 
-    public static delete({where}: {
-        where: Prisma.UserWhereUniqueInput;
+    public static softDelete({where, select}: {
+        where: Prisma.UrlWhereUniqueInput;
+        select?: Prisma.UrlSelect;
     }) {
-        return (prisma as any)[this.modelName].delete({where});
+        return (prisma as any)[this.modelName].update({
+            where,
+            data: {deletedAt: new Date(), isDeleted: true},
+            select
+        });
     }
 }

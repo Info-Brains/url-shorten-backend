@@ -16,6 +16,7 @@ const envSchemaObject = Joi.object({
     NODE_ENV: Joi.string().valid("development", "production", "test").default("development"),
     DATABASE_URL: Joi.string().required().not().uri().default("file:./dev.db"),
     JWT_SECRET: Joi.string().required(),
+    BASE_URL: Joi.string().uri().default("http://localhost:3000"),
 }).unknown(true);
 
 const {error, value} = envSchemaObject.validate(process.env, {
@@ -35,6 +36,7 @@ const ENV = {
     NODE_ENV: value.NODE_ENV,
     DATABASE_URL: value.DATABASE_URL,
     JWT_SECRET: value.JWT_SECRET,
+    BASE_URL: value.BASE_URL,
 }
 
 export default ENV;

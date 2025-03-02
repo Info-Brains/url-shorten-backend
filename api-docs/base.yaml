@@ -1,16 +1,18 @@
 openapi: 3.0.3
 info:
-  title: -APP- API docs
+  title: Shorten URL API docs
   version: 1.0.0-alpha-1
-  description: This is the API documentation for the server-side app -APP-
+  description: This is the API documentation for the server-side app Shorten URL
 
 servers:
   - url: http://localhost:3000
     description: Local development server
 
 tags:
-  - name: Mobile
-    description: User management operations
+  - name: Auth
+    description: Auth collection
+  - name: Url
+    description: Url collection
 
 paths: {}
 

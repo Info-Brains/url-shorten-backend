@@ -68,3 +68,216 @@
 [06:32:33 PM] INFO:  Server is running in development mode on port 3000 
 [06:32:49 PM] INFO:  Server is running in development mode on port 3000 
 [06:32:52 PM] INFO:  Server is running in development mode on port 3000 
+[06:36:44 PM] INFO:  Server is running in development mode on port 3000 
+[06:37:40 PM] INFO:  Server is running in development mode on port 3000 
+[06:38:25 PM] INFO:  Server is running in development mode on port 3000 
+[06:38:55 PM] INFO:  Server is running in development mode on port 3000 
+[06:40:57 PM] INFO:  Server is running in development mode on port 3000 
+[06:44:26 PM] INFO:  Server is running in development mode on port 3000 
+[06:44:40 PM] INFO:  Server is running in development mode on port 3000 
+[06:45:15 PM] INFO:  Server is running in development mode on port 3000 
+[06:46:02 PM] INFO:  Server is running in development mode on port 3000 
+[06:46:09 PM] INFO:  Server is running in development mode on port 3000 
+[06:46:34 PM] INFO:  Server is running in development mode on port 3000 
+[06:47:03 PM] INFO:  Server is running in development mode on port 3000 
+[06:47:54 PM] INFO:  Server is running in development mode on port 3000 
+[06:48:27 PM] INFO:  Server is running in development mode on port 3000 
+[06:49:01 PM] INFO:  Server is running in development mode on port 3000 
+[06:49:11 PM] INFO:  Server is running in development mode on port 3000 
+[06:49:34 PM] INFO:  Server is running in development mode on port 3000 
+[06:50:12 PM] INFO:  Server is running in development mode on port 3000 
+[06:50:50 PM] INFO:  Server is running in development mode on port 3000 
+[09:03:16 PM] INFO:  Server is running in development mode on port 3000 
+[09:03:52 PM] INFO:  Server is running in development mode on port 3000 
+[09:04:13 PM] INFO:  Server is running in development mode on port 3000 
+[09:04:33 PM] INFO:  Server is running in development mode on port 3000 
+[09:05:05 PM] INFO:  Server is running in development mode on port 3000 
+[09:05:58 PM] INFO:  Server is running in development mode on port 3000 
+[09:06:34 PM] INFO:  Server is running in development mode on port 3000 
+[09:07:19 PM] INFO:  Server is running in development mode on port 3000 
+[09:07:38 PM] INFO:  Server is running in development mode on port 3000 
+[09:08:54 PM] INFO:  Server is running in development mode on port 3000 
+[09:09:12 PM] INFO:  Server is running in development mode on port 3000 
+[09:10:13 PM] INFO:  Server is running in development mode on port 3000 
+[09:10:31 PM] INFO:  Server is running in development mode on port 3000 
+[09:11:31 PM] INFO:  Server is running in development mode on port 3000 
+[09:12:05 PM] INFO:  Server is running in development mode on port 3000 
+[09:13:06 PM] INFO:  Server is running in development mode on port 3000 
+[09:13:21 PM] INFO:  Server is running in development mode on port 3000 
+[09:13:38 PM] INFO:  Server is running in development mode on port 3000 
+[09:14:04 PM] INFO:  Server is running in development mode on port 3000 
+[09:14:21 PM] INFO:  Server is running in development mode on port 3000 
+[09:14:55 PM] INFO:  Server is running in development mode on port 3000 
+[09:15:05 PM] INFO:  Server is running in development mode on port 3000 
+[09:16:30 PM] INFO:  Server is running in development mode on port 3000 
+[09:16:56 PM] INFO:  Server is running in development mode on port 3000 
+[09:17:15 PM] INFO:  Server is running in development mode on port 3000 
+[09:26:22 PM] INFO:  Server is running in development mode on port 3000 
+[09:30:37 PM] INFO:  Server is running in development mode on port 3000 
+[09:31:47 PM] INFO:  Server is running in development mode on port 3000 
+[09:32:28 PM] INFO:  Server is running in development mode on port 3000 
+[09:33:01 PM] ERROR:  [GET] /sourceMap/assets/css/shadow.css.map - Not Found 
+[09:33:01 PM] ERROR:  [GET] /sourceMap/assets/css/shadow.css.map - Not Found 
+[09:36:02 PM] ERROR:  [POST] /api/public/auth/register - Email already exist 
+[09:37:27 PM] INFO:  Server is running in development mode on port 3000 
+[09:37:30 PM] ERROR:  [POST] /api/public/auth/register - Email already exist 
+[09:39:13 PM] INFO:  Server is running in development mode on port 3000 
+[09:40:05 PM] INFO:  Server is running in development mode on port 3000 
+[09:40:38 PM] INFO:  Server is running in development mode on port 3000 
+[09:41:09 PM] INFO:  Server is running in development mode on port 3000 
+[09:41:35 PM] INFO:  Server is running in development mode on port 3000 
+[09:41:43 PM] INFO:  Server is running in development mode on port 3000 
+[09:42:00 PM] INFO:  Server is running in development mode on port 3000 
+[09:45:26 PM] INFO:  Server is running in development mode on port 3000 
+[09:46:13 PM] INFO:  Server is running in development mode on port 3000 
+[09:47:00 PM] INFO:  Server is running in development mode on port 3000 
+[09:47:15 PM] INFO:  Server is running in development mode on port 3000 
+[09:48:33 PM] INFO:  Server is running in development mode on port 3000 
+[10:10:22 PM] INFO:  Server is running in development mode on port 3000 
+[10:19:52 PM] INFO:  Server is running in development mode on port 3000 
+[10:20:00 PM] INFO:  Server is running in development mode on port 3000 
+[10:21:35 PM] INFO:  Server is running in development mode on port 3000 
+[10:21:38 PM] INFO:  Server is running in development mode on port 3000 
+[10:23:08 PM] INFO:  Server is running in development mode on port 3000 
+[10:23:36 PM] INFO:  Server is running in development mode on port 3000 
+[10:24:18 PM] INFO:  Server is running in development mode on port 3000 
+[10:25:05 PM] INFO:  Server is running in development mode on port 3000 
+[12:25:54 AM] INFO:  Server is running in development mode on port 3000 
+[12:26:11 AM] INFO:  Server is running in development mode on port 3000 
+[12:26:23 AM] INFO:  Server is running in development mode on port 3000 
+[12:26:33 AM] INFO:  Server is running in development mode on port 3000 
+[12:26:43 AM] INFO:  Server is running in development mode on port 3000 
+[12:27:10 AM] INFO:  Server is running in development mode on port 3000 
+[12:27:27 AM] INFO:  Server is running in development mode on port 3000 
+[12:28:58 AM] INFO:  Server is running in development mode on port 3000 
+[12:29:30 AM] INFO:  Server is running in development mode on port 3000 
+[12:29:39 AM] ERROR:  [GET] /api/private/urls - Unauthorized 
+[12:30:14 AM] INFO:  Server is running in development mode on port 3000 
+[12:32:41 AM] ERROR:  [GET] /api/private/urls - Unauthorized 
+[12:32:44 AM] ERROR:  [GET] /sourceMap/assets/css/shadow.css.map - Not Found 
+[12:32:45 AM] ERROR:  [GET] /sourceMap/assets/css/shadow.css.map - Not Found 
+[12:33:05 AM] ERROR:  [GET] /api/private/urls - Unauthorized 
+[12:33:46 AM] INFO:  Server is running in development mode on port 3000 
+[12:33:54 AM] ERROR:  [GET] /api/private/urls - Internal Server Error 
+[12:34:54 AM] INFO:  Server is running in development mode on port 3000 
+[12:34:55 AM] ERROR:  [GET] /api/private/urls - Internal Server Error 
+[12:34:57 AM] ERROR:  [GET] /api/private/urls - Internal Server Error 
+[12:35:21 AM] INFO:  Server is running in development mode on port 3000 
+[12:35:41 AM] INFO:  Server is running in development mode on port 3000 
+[12:35:46 AM] ERROR:  [GET] /api/private/urls - Internal Server Error 
+[12:35:47 AM] ERROR:  [GET] /api/private/urls - Internal Server Error 
+[12:36:08 AM] INFO:  Server is running in development mode on port 3000 
+[12:36:49 AM] ERROR:  [GET] /api/private/urls - Internal Server Error 
+[12:43:04 AM] INFO:  Server is running in development mode on port 3000 
+[12:43:45 AM] INFO:  Server is running in development mode on port 3000 
+[12:44:54 AM] INFO:  Server is running in development mode on port 3000 
+[12:45:15 AM] INFO:  Server is running in development mode on port 3000 
+[12:46:07 AM] INFO:  Server is running in development mode on port 3000 
+[12:47:17 AM] INFO:  Server is running in development mode on port 3000 
+[12:47:55 AM] INFO:  Server is running in development mode on port 3000 
+[12:48:05 AM] INFO:  Server is running in development mode on port 3000 
+[12:51:46 AM] INFO:  Server is running in development mode on port 3000 
+[12:51:56 AM] ERROR:  [GET] /sourceMap/assets/css/shadow.css.map - Not Found 
+[12:51:56 AM] ERROR:  [GET] /sourceMap/assets/css/shadow.css.map - Not Found 
+[12:52:22 AM] ERROR:  [GET] /api/private/urls - "page" is required 
+[12:52:42 AM] INFO:  Server is running in development mode on port 3000 
+[12:53:17 AM] ERROR:  [GET] /shorten/cm7quy4fj000045u7nj1897i9 - Not Found 
+[12:53:17 AM] ERROR:  [GET] /favicon.ico - Not Found 
+[12:55:01 AM] INFO:  Server is running in development mode on port 3000 
+[12:56:21 AM] INFO:  Server is running in development mode on port 3000 
+[12:57:40 AM] INFO:  Server is running in development mode on port 3000 
+[12:57:44 AM] ERROR:  [GET] /sourceMap/assets/css/shadow.css.map - Not Found 
+[12:57:44 AM] ERROR:  [GET] /sourceMap/assets/css/shadow.css.map - Not Found 
+[12:59:37 AM] INFO:  Server is running in development mode on port 3000 
+[01:05:16 AM] INFO:  Server is running in development mode on port 3000 
+[01:05:25 AM] INFO:  Server is running in development mode on port 3000 
+[01:05:44 AM] ERROR:  [GET] /api/private/urls/3fa85f64-5717-4562-b3fc-2c963f66afa6 - Url not found 
+[01:05:59 AM] ERROR:  [GET] /api/private/urls/3fa85f64-5717-4562-b3fc-2c963f66afa6 - Url not found 
+[01:06:30 AM] INFO:  Server is running in development mode on port 3000 
+[01:06:30 AM] ERROR:  [GET] /api/private/urls/3fa85f64-5717-4562-b3fc-2c963f66afa6 - Url not found 
+[01:06:48 AM] INFO:  Server is running in development mode on port 3000 
+[01:06:55 AM] INFO:  Server is running in development mode on port 3000 
+[01:07:08 AM] INFO:  Server is running in development mode on port 3000 
+[01:07:09 AM] ERROR:  [GET] /api/private/urls/3fa85f64-5717-4562-b3fc-2c963f66afa6 - Url not found 
+[01:07:10 AM] ERROR:  [GET] /api/private/urls/3fa85f64-5717-4562-b3fc-2c963f66afa6 - Url not found 
+[01:07:11 AM] ERROR:  [GET] /api/private/urls/3fa85f64-5717-4562-b3fc-2c963f66afa6 - Url not found 
+[01:08:23 AM] INFO:  Server is running in development mode on port 3000 
+[01:08:24 AM] ERROR:  [GET] /api/private/urls/3fa85f64-5717-4562-b3fc-2c963f66afa6 - Url not found 
+[01:09:18 AM] INFO:  Server is running in development mode on port 3000 
+[01:09:25 AM] INFO:  Server is running in development mode on port 3000 
+[01:09:43 AM] INFO:  Server is running in development mode on port 3000 
+[01:09:43 AM] ERROR:  [GET] /api/private/urls/3fa85f64-5717-4562-b3fc-2c963f66afa6 - Url not found 
+[01:10:44 AM] INFO:  Server is running in development mode on port 3000 
+[01:11:12 AM] INFO:  Server is running in development mode on port 3000 
+[01:11:22 AM] INFO:  Server is running in development mode on port 3000 
+[01:12:37 AM] INFO:  Server is running in development mode on port 3000 
+[01:12:49 AM] INFO:  Server is running in development mode on port 3000 
+[01:13:14 AM] INFO:  Server is running in development mode on port 3000 
+[01:13:24 AM] INFO:  Server is running in development mode on port 3000 
+[01:14:16 AM] INFO:  Server is running in development mode on port 3000 
+[01:14:25 AM] INFO:  Server is running in development mode on port 3000 
+[01:14:47 AM] INFO:  Server is running in development mode on port 3000 
+[01:15:12 AM] INFO:  Server is running in development mode on port 3000 
+[01:15:45 AM] INFO:  Server is running in development mode on port 3000 
+[01:16:09 AM] INFO:  Server is running in development mode on port 3000 
+[01:16:25 AM] INFO:  Server is running in development mode on port 3000 
+[01:16:33 AM] ERROR:  [GET] /sourceMap/assets/css/shadow.css.map - Not Found 
+[01:16:33 AM] ERROR:  [GET] /sourceMap/assets/css/shadow.css.map - Not Found 
+[01:16:59 AM] ERROR:  [GET] /api/private/urls - Unauthorized 
+[01:17:12 AM] ERROR:  [POST] /api/private/urls - "url" must be a valid uri 
+[01:18:19 AM] INFO:  Server is running in development mode on port 3000 
+[01:19:21 AM] ERROR:  [PATCH] /api/private/urls/cm7qvtg2g000045s6u8djs82i - Not Found 
+[01:20:06 AM] INFO:  Server is running in development mode on port 3000 
+[01:20:12 AM] ERROR:  [PATCH] /api/private/urls/cm7qvtg2g000045s6u8djs82i - Not Found 
+[01:20:20 AM] INFO:  Server is running in development mode on port 3000 
+[01:20:21 AM] ERROR:  [PATCH] /api/private/urls/cm7qvtg2g000045s6u8djs82i - Not Found 
+[01:20:21 AM] ERROR:  [PATCH] /api/private/urls/cm7qvtg2g000045s6u8djs82i - Not Found 
+[01:20:29 AM] INFO:  Server is running in development mode on port 3000 
+[01:22:30 AM] INFO:  Server is running in development mode on port 3000 
+[01:22:31 AM] ERROR:  [PATCH] /api/private/urls/cm7qvtg2g000045s6u8djs82i - Not Found 
+[01:22:35 AM] INFO:  Server is running in development mode on port 3000 
+[01:22:37 AM] ERROR:  [PATCH] /api/private/urls/cm7qvtg2g000045s6u8djs82i - Not Found 
+[01:22:50 AM] INFO:  Server is running in development mode on port 3000 
+[01:23:10 AM] INFO:  Server is running in development mode on port 3000 
+[01:23:32 AM] ERROR:  [DELETE] /api/private/urls/cm7qvtg2g000045s6u8djs82i - Url not found 
+[01:23:53 AM] INFO:  Server is running in development mode on port 3000 
+[01:24:15 AM] INFO:  Server is running in development mode on port 3000 
+[01:24:16 AM] ERROR:  [DELETE] /api/private/urls/cm7qvtg2g000045s6u8djs82i - Url not found 
+[01:26:28 AM] INFO:  Server is running in development mode on port 3000 
+[01:27:48 AM] INFO:  Server is running in development mode on port 3000 
+[01:38:45 AM] INFO:  Server is running in development mode on port 3000 
+[01:39:43 AM] INFO:  Server is running in development mode on port 3000 
+[01:40:11 AM] INFO:  Server is running in development mode on port 3000 
+[01:40:45 AM] INFO:  Server is running in development mode on port 3000 
+[01:41:25 AM] INFO:  Server is running in development mode on port 3000 
+[01:41:48 AM] INFO:  Server is running in development mode on port 3000 
+[01:42:23 AM] INFO:  Server is running in development mode on port 3000 
+[01:42:32 AM] ERROR:  [GET] /shorten/cm7quy4fj000045u7nj1897i9 - Not Found 
+[01:42:35 AM] ERROR:  [GET] /shorten/cm7quy4fj000045u7nj1897i9 - Not Found 
+[01:42:35 AM] ERROR:  [GET] /shorten/cm7quy4fj000045u7nj1897i9 - Not Found 
+[01:42:36 AM] ERROR:  [GET] /shorten/cm7quy4fj000045u7nj1897i9 - Not Found 
+[01:42:48 AM] INFO:  Server is running in development mode on port 3000 
+[01:44:18 AM] INFO:  Server is running in development mode on port 3000 
+[01:45:16 AM] INFO:  Server is running in development mode on port 3000 
+[12:21:51 PM] ERROR:  [GET] /favicon.ico - Not Found 
+[12:27:47 PM] ERROR:  [POST] /api/private/urls - "url" must be a valid uri 
+[12:33:12 PM] INFO:  Server is running in development mode on port 3000 
+[12:34:46 PM] INFO:  Server is running in development mode on port 3000 
+[12:38:04 PM] INFO:  Server is running in development mode on port 3000 
+[12:39:05 PM] ERROR:  Shorten check failed: PrismaClientKnownRequestError: Transaction API error: Transaction already closed: A commit cannot be executed on an expired transaction. The timeout for this transaction was 5000 ms, however 5127 ms passed since the start of the transaction. Consider increasing the interactive transaction timeout or doing less work in the transaction. 
+[12:39:26 PM] ERROR:  Shorten check failed: PrismaClientKnownRequestError: 
+Invalid `any)[this.modelName].update()` invocation in
+/home/dhiya/Projects/OpenSource/url-short-cut/src/business-logic/models/url.model.ts:49:48
+
+  46     data: Prisma.UrlUpdateInput;
+  47     select?: Prisma.UrlSelect;
+  48 }) {
+→ 49     return (prisma as any)[this.modelName].update(
+Operations timed out after `N/A`. Context: The database failed to respond to a query within the configured timeout — see https://pris.ly/d/sqlite-connector for more details. Database: /home/dhiya/Projects/OpenSource/url-short-cut/prisma/./dev.db 
+[12:39:32 PM] ERROR:  Shorten check failed: PrismaClientKnownRequestError: Transaction API error: Transaction already closed: A commit cannot be executed on an expired transaction. The timeout for this transaction was 5000 ms, however 5131 ms passed since the start of the transaction. Consider increasing the interactive transaction timeout or doing less work in the transaction. 
+[12:39:43 PM] INFO:  Server is running in development mode on port 3000 
+[12:39:50 PM] ERROR:  Shorten check failed: PrismaClientKnownRequestError: Transaction API error: Transaction already closed: A commit cannot be executed on an expired transaction. The timeout for this transaction was 5000 ms, however 5113 ms passed since the start of the transaction. Consider increasing the interactive transaction timeout or doing less work in the transaction. 
+[12:40:23 PM] ERROR:  Shorten check failed: PrismaClientKnownRequestError: Transaction API error: Transaction already closed: A commit cannot be executed on an expired transaction. The timeout for this transaction was 5000 ms, however 5110 ms passed since the start of the transaction. Consider increasing the interactive transaction timeout or doing less work in the transaction. 
+[12:44:40 PM] INFO:  Server is running in development mode on port 3000 
+[12:44:45 PM] INFO:  Server is running in development mode on port 3000 
+[12:46:38 PM] INFO:  Server is running in development mode on port 3000 

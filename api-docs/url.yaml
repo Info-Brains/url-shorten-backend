@@ -1,0 +1,197 @@
+paths:
+  /api/private/urls:
+    get:
+      tags:
+        - Url
+      summary: Get all URLs
+      description: Retrieve a paginated list of URLs
+      security:
+        - BearerAuth: [ ]
+      parameters:
+        - name: page
+          in: query
+          description: Page number
+          required: false
+          schema:
+            type: integer
+        - name: limit
+          in: query
+          description: Number of items per page
+          required: false
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: List of URLs
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Url'
+                  pagination:
+                    type: object
+                    properties:
+                      page:
+                        type: integer
+                      limit:
+                        type: integer
+                      totalElements:
+                        type: integer
+                      totalPages:
+                        type: integer
+                      hasNext:
+                        type: boolean
+                      hasPrevious:
+                        type: boolean
+        '401':
+          description: Unauthorized
+        '500':
+          description: Internal server error
+    post:
+      tags:
+        - Url
+      summary: Create a new shortened URL
+      description: Create and store a new shortened URL
+      security:
+        - BearerAuth: [ ]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                url:
+                  type: string
+                  format: uri
+      responses:
+        '201':
+          description: URL successfully created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Url'
+        '400':
+          description: Validation error
+        '401':
+          description: Unauthorized
+        '500':
+          description: Internal server error
+
+  /api/private/urls/{id}:
+    get:
+      tags:
+        - Url
+      summary: Get a URL by ID
+      description: Retrieve details of a specific URL
+      security:
+        - BearerAuth: [ ]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: cuid
+      responses:
+        '200':
+          description: URL details retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Url'
+        '401':
+          description: Unauthorized
+        '404':
+          description: URL not found
+        '500':
+          description: Internal server error
+    patch:
+      tags:
+        - Url
+      summary: Update a URL by ID
+      description: Modify an existing shortened URL
+      security:
+        - BearerAuth: [ ]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: cuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                url:
+                  type: string
+                  format: uri
+      responses:
+        '200':
+          description: URL updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Url'
+        '400':
+          description: Validation error
+        '401':
+          description: Unauthorized
+        '404':
+          description: URL not found
+        '500':
+          description: Internal server errors
+    delete:
+      tags:
+        - Url
+      summary: Delete a URL by ID
+      description: Remove a shortened URL
+      security:
+        - BearerAuth: [ ]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: cuid
+      responses:
+        '200':
+          description: URL deleted successfully
+        '401':
+          description: Unauthorized
+        '404':
+          description: URL not found
+        '500':
+          description: Internal server error
+
+components:
+  schemas:
+    Url:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        originalUrl:
+          type: string
+          format: uri
+        shortUrl:
+          type: string
+          format: uri
+        clicks:
+          type: integer
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
