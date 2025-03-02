@@ -3,7 +3,7 @@
   "version": "1.0.0-alpha-1",
   "main": "./src/app.ts",
   "scripts": {
-    "build": "npx tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
+    "build": "npx tsc --project tsconfig.json && npx tsc-alias -p tsconfig.json",
     "start": "node dist/app.js",
     "start:server": "node dist/server.js",
     "dev": "nodemon -r tsconfig-paths/register src/app.ts"
