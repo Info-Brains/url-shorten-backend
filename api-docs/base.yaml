@@ -5,7 +5,7 @@ info:
   description: This is the API documentation for the server-side app Shorten URL
 
 servers:
-  - url: https:www.shorten-url-api.infobrains.club
+  - url: https://www.shorten-url-api.infobrains.club
     description: Production server
   - url: http://localhost:3000
     description: Local development server
